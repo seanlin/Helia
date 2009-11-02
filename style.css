@@ -1,0 +1,124 @@
+/*
+Theme Name: Helia
+Theme URI: http://github.com/seanlin/Helia
+Description: Clean and minimalist theme
+Version: 1.0
+Author: Sean Lin
+Author URI: http://www.seanlin.me
+Tags: fixed width, two columns, valid XHTML, valid CSS, clean, gravatar
+
+License: GPL
+*/
+@import url("css/reset.css");
+@import url("css/sIFR-screen.css");
+
+/* Main Stylesheet */
+
+body {font-family:Verdana, Geneva, sans-serif; font-size:2em; background:#f6f6f4; }
+#wrapper { margin:20px auto; width:854px; background:url(images/bodybg.png) repeat-y}
+#wrapper .header {background:url(images/bodyheader.png) no-repeat; min-height:24px; padding:18px 0 0 30px}
+#wrapper .footer {background:url(images/bodyfooter.png) no-repeat; height:29px; clear:both}
+a {text-decoration:none; border-bottom:1px dotted #666;}
+
+/* Header and Logo*/
+
+.header h1.logo {background:url(images/logo_seanlin.png) no-repeat; width:269px; height:66px; display:block; text-indent:-99999px; float:left }
+.header h1.logo a {display:block; width:140px; height:50px; border:0;}
+
+
+
+/* Container */
+
+#mainarea {min-height:600px}
+
+#contentarea {width: 550px; float:left; }
+
+#sidebar {width:250px; float:left; margin:10px 0 0 10px}
+
+.clear {clear:both}
+
+/* Post Styles */
+
+.post {margin:20px 0;padding:0 30px 0 45px;}
+.post h2 {font-size:100%; display:inline-block; font-weight:bold}
+.post h3 {font-size:50%; font-weight:bold }
+.post h4 {font-size:40%; font-weight:bold }
+.post .meta { font-size:33%; color:#999; padding:2px 0; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+.post .meta a {color:#999}
+.post p {margin:10px 0; line-height:1.3em; font-size:35%; font-family:Verdana, Geneva, sans-serif}
+.post p a {color:#666}
+
+.post ul {list-style:disc; margin:10px 0 5px 25px}
+.post ul li {margin:2px 0;font-size:35%; line-height:1.5em}
+.post ul li ul {argin:2px 0 2px 10px}
+.post ul li ul li {font-size:35%; margin:2px 0; list-style:disc}
+.post ul li a, .post ol li a { color:#999}
+.post ol {list-style:decimal; margin:10px 0 5px 25px}
+.post ol li {margin:2px 0; font-size:35%; line-height:1.5em}
+.post ol li ol {margin:2px 0 2px 10px}
+.post ol li ol li {font-size:100%; margin:2px 0; list-style:lower-roman}
+
+.post blockquote { margin:5px 22px; background:#E7E7E7; padding:10px}
+
+img.center {display: block; margin:5px 0;  }
+img.alignright {float: right;padding: 4px;margin: 0 0 2px 7px;display: inline;}
+img.alignleft {float: left;padding: 4px;margin: 0 7px 2px 0;display: inline;}
+img.size-medium { border:1px solid #999}
+
+h3#comments { font-size:40%; letter-spacing:-1px; font-weight:bold; margin:20px 0}
+ol.commentlist {margin:0}
+ol.commentlist li {font-size:35%; line-height:1.3em; border-bottom:1px dotted #999; margin:5px 0 5px 0; padding:10px; list-style:none  }
+ol.commentlist li a {color:#666}
+ol.commentlist li cite {font-size:110%; letter-spacing:-1px; font-weight:bold; color:#666;}
+ol.commentlist li small.commentmetadata {color:#999;margin:0 0 15px 0; display:block; font-size:90%}
+ol.commentlist li img.avatar { display:block; border:1px solid #999; float:left; padding:0 0 0 0; margin:0 4px 5px 0}
+ol.commentlist li p {margin:5px 0; font-size:90%; line-height:1.5em}
+
+ol.commentlist li.alt {background-color:#F0F0F0}
+
+#commentform textarea { width:100%; height:150px}
+h3#respond {font-size:45%; letter-spacing:-1px; font-weight:bold; margin:10px 0}
+
+h2.page-title { font-size:80%; font-weight:bold; letter-spacing:-1px; padding:3px 24px 10px 24px; color:#9A9A9A}
+h2.entry-title { font-size:75%; font-weight:bold; letter-spacing:-1px; padding:3px 24px 10px 24px}
+span.search-terms { font-style:italic; font-weight:normal}
+
+.postnav {margin:15px 50px}
+.postnav .alignleft {float:left; margin: 0 5px 0 0}
+.postnav .alignright {float: right}
+.postnav {font-size: 35%}
+.postnav a {color: #666; text-decoration: none}
+.post nav a:hover {color: #000}
+
+/* WordPress Formatting Styles */
+
+.aligncenter,div.aligncenter { display: block;margin-left: auto;margin-right: auto;}
+.alignleft {float: left;}
+.alignright {float: right;}
+
+.wp-caption {border: 1px solid #ddd;text-align: center;background-color: #f3f3f3;padding-top: 4px;margin: 10px;/* optional rounded corners for browsers that support it */-moz-border-radius: 3px;-khtml-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+
+.wp-caption img {margin: 0;padding: 0;border: 0 none;}
+
+.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;padding: 0 4px 5px;margin: 0;}
+
+/* Sidebar Styles */
+
+#sidebar h3 {font-size:37%; font-weight:bold; margin:0 0 5px 0}
+.minibox ul li, .box ul li {font-size:35%}
+.minibox { width:50%; float:left; margin:0 0 5px 0; display:block}
+.minibox ul li {margin:5px 0;}
+.minibox ul li a {color:#666}
+
+.box {clear:both;width:248px; margin:15px 0; display:block}
+.feedsub p {font-size:35%; margin:5px 0}
+
+.tagcloud a {color:#999999; text-decoration:none;}
+.tagcloud a:hover {background: #f8faf7; color: #000}
+.recentcomments ul li {font-size: 35%; margin: 4px 0; color: #666; border-bottom: 1px dotted #ccc; padding: 3px 0; line-height: 1.2em}
+.recentcomments ul li a {color: #000}
+
+/* Footer Styles */
+
+.footer p {padding:20px 10px; font-size:30%; color:#666; margin:0 0 0 40px; display:block;}
+.footer p a {color:#666;}
