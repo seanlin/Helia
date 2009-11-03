@@ -4,8 +4,8 @@ Theme URI: http://github.com/seanlin/Helia
 Description: Clean and minimalist theme
 Version: 1.0
 Author: Sean Lin
-Author URI: http://www.seanlin.me
-Tags: fixed width, two columns, valid XHTML, valid CSS, clean, gravatar
+Author URI: http://wseanlin.me
+Tags: fixed-width, two-columns, white, light, right-sidebar
 
 License: GPL
 */
@@ -24,6 +24,7 @@ a {text-decoration:none; border-bottom:1px dotted #666;}
 
 .header h1.logo {background:url(images/logo_seanlin.png) no-repeat; width:269px; height:66px; display:block; text-indent:-99999px; float:left }
 .header h1.logo a {display:block; width:140px; height:50px; border:0;}
+.header .tagline {clear:both; font-size:35%; color:#666; margin:5px 15px;}
 
 
 
@@ -113,10 +114,11 @@ span.search-terms { font-style:italic; font-weight:normal}
 .box {clear:both;width:248px; margin:15px 0; display:block}
 .feedsub p {font-size:35%; margin:5px 0}
 
-.tagcloud a {color:#999999; text-decoration:none;}
-.tagcloud a:hover {background: #f8faf7; color: #000}
-.recentcomments ul li {font-size: 35%; margin: 4px 0; color: #666; border-bottom: 1px dotted #ccc; padding: 3px 0; line-height: 1.2em}
-.recentcomments ul li a {color: #000}
+li.widget_tag_cloud a {color:#999999; text-decoration:none;}
+li.widget_tag_cloud a:hover {background: #f8faf7; color: #000}
+li.widget_get_recent_comments {margin:5px 0; display:block; clear:both;}
+li.widget_get_recent_comments ul li {font-size: 35%; margin: 4px 0; color: #666; border-bottom: 1px dotted #ccc; padding: 3px 0; line-height: 1.2em}
+li.widget_get_recent_comments ul li a {color: #000}
 
 /* Footer Styles */
 

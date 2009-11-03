@@ -1,6 +1,7 @@
 <div id="sidebar">
 				<ul>
-                	<li class="minibox">
+					<?php 	/* Widgetized sidebar, if you have the plugin installed. */ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+                	<li id="archives" class="minibox widget">
                     	<h3>Archives</h3>
                         <ul>
 							<?php wp_get_archives('type=monthly'); ?>
@@ -24,6 +25,7 @@
                           </ul>
                     </li>
                     <?php } ?> 
+					<?php endif; ?> 
                      
                   
                 

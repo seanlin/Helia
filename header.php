@@ -18,7 +18,7 @@
 <body>
 	<div id="wrapper">
     	<div class="header">
-        	<h1 class="logo"><a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></a></h1>
+        	<h1 class="logo"><a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h1><div class="tagline"><?php bloginfo('description'); ?></div>
             
         </div>
         <div class="clear"></div>

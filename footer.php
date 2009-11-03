@@ -2,7 +2,7 @@
         
 
         
-        <div class="footer"></div>
+        <div class="footer"><p>Powered by <a href="http://wordpress.org">WordPress</a> and <a href="http://seanlin.me">Helia Theme</a></p></div>
     </div>
 <script type="text/javascript">
 //<![CDATA[
